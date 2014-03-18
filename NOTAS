@@ -3,3 +3,59 @@
 NOTAS CURSO FRONTEND_2014
 *************************
 
+
+Lo primero cargar el HTML
+
+Dp las funcinalidades en JS o JQ
+
+GIT
+
+Sistema de control de versiones
+
+Estados de lo que hemos avanzado
+
+Queremos saber qué cambié
+
+Github:
+
+Plataforma Git para visualizar nuestro código y sus cambios
+
+Repositorio: Carpeta donde estará nuestro código
+
+Se puede crear el repositorio online o a través de la aplicación en local
+
+Archivo Readme
+
+Si vamos a commits vemos mi commit al crear el repo
+
+Commit: gúardame estos cambios
+
+Cuando queremos subir esto hacemos un push
+
+aplicación: github.com descargar
+
+pussing: comand p
+
+push: botón arriba derecha
+
+
+
+OBJECT ORIENTED CSS
+*******************
+
+
+FOUNDATION
+**********
+
+Movile first
+
+Tamaños: small - medium - large
+
+con atributos dentro de HTML puedo ahorrarme lidiar con JS
+
+main: dentro article. Parte más relevante.
+
+ooccss trabaja con clases generalizadas
+
+
+

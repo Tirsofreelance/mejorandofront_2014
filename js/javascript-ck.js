@@ -1,0 +1,1 @@
+$(document).ready(function(){console.log("Esto es javascript en un archivo local")});

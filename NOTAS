@@ -59,3 +59,112 @@ ooccss trabaja con clases generalizadas
 
 
 
+
+
+DÍA DOS
+********
+
+SPOTYPY
+
+1º) Arquitectura información
+
+2º) Mockup
+
+Img: vertical align baseline: alinear abajo / vertical align: top alinear arriba las imágenes.
+
+Para centrar texto no usar vertical align: usar line height = alto del padre.
+
+el '**/*' es algo asi como una expresión regular que busca en toda la carpeta e importa uno a uno los archivos, en orden alfabetico.
+
+sabias que puedes usar @import 'archivos/**/*.scss' para no listar uno por uno : ).
+
+overflow: hidden para que la imagen cuadrada tenga bordes redondeados como el contenedor: trip de Leonidas.
+
+ej: @import "components/*.scss'
+
+
+DÍA 3
+*****
+
+- Mixins
+
+- Animaciones animandas
+
+- Responsive
+
+display block: por defecto tiene display AUTO
+
+border: transparente para que no se muevan los li a hover
+
+Dos elemntos que se tiran a la derecha: manipular el DOME y decir que el segundo esté sobre el primero.
+
+Poner el el html las dimensiones de las imágenes.
+
+Overflow: hidden 
+
+pseudoelementos: assets de diseño, no de contenido
+
+
+
+USAR LA CONSOLA de CHROME.
+
+DATA ATTRIBUTE ( WAKKOS )
+************************
+
+propiedad de html5 que nos permite usar "variables"
+
+ANIMACIONES EN CSS: usa la cpu para la animación, es animación x hw no x sw
+
+Barrita gris: propiedad.
+
+.rep
+	animation 1s reproduccion infinite
+
+	-webkit-reproduccion: ( mejor un mixin en stylus )
+
+	@keyframes reproducción
+		0%
+			background red
+
+		100%
+			background blue
+
+	la propiedad animation se interpreta con prefijos.
+
+
+	desde dde hasta dde, o x medio de porcentajes.
+
+	otra forma: 0% y 100%
+
+mixin: evita que repitamos código, con el mismo mixim podemos hacer todas las animaciones que queramos ( con el mixim definido, clado )
+
+animacion(n)
+	-webkit-animation n
+	-moz-animation n
+	-o-animation n
+	-ms-animation n
+	animation n
+
+animacion puede recibir otra animación que sea el desplazamiento horizontal y ajustar el tiempo de desplazamiento al tiempo de duración de la canción. great!
+
+Transform: otra propiedad de transformación/animación
+
+Ej: scale
+
+@keyframes circle
+
+	0%
+		transform
+
+nib stylus: conjunto de mixins ya hechos .
+
+sudo npm install stylus nib -g
+
+@impor "nib"
+
+los mixins van entre paréntesis.
+
+se pueden combinar dos animaciones ej: punto sobre la barra de la canción.
+
+Limpiar los mixins antes de invocar a nib.
+
